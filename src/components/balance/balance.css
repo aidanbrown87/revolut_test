@@ -1,0 +1,4 @@
+.balance {
+  grid-area: balance;
+  justify-self: flex-start;
+}

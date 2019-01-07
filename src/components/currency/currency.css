@@ -1,0 +1,15 @@
+.currency {
+  display: grid;
+  grid-template-areas:
+    "currencySelector quantity"
+    "balance .";
+  margin: 20px 0;
+}
+
+.base {
+  grid-area: base;
+}
+
+.term {
+  grid-area: term;
+}

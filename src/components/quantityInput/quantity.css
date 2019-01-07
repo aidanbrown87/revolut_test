@@ -1,0 +1,19 @@
+.quantity {
+  grid-area: quantity;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.quantity span {
+  flex: 1;
+}
+
+.quantity input {
+  text-align: right;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1em;
+  width: 200px;
+}

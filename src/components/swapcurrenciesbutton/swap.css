@@ -1,0 +1,16 @@
+.swap {
+  grid-area: swap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #eee;
+  background-color: white;
+  border-radius: 500px;
+  height: 30px;
+  width: 30px;
+}
+
+.swap img {
+  height: 50%;
+  width: auto;
+}

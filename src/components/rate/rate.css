@@ -1,0 +1,19 @@
+.rate {
+  grid-area: rate;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  border: 2px solid #eee;
+  background-color: white;
+  height: 30px;
+  width: auto;
+  border-radius: 500px;
+  padding: 0 20px;
+  width: fit-content;
+}
+
+.rate_icon {
+  height: 50%;
+  width: auto;
+  margin-right: 10px;
+}

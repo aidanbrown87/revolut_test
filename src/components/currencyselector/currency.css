@@ -1,0 +1,11 @@
+.currencySelector {
+  width: 150px;
+  padding: 5px 35px 5px 0px;
+  font-size: 2em;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../../assets/down-chevron.png') 96% / 10% no-repeat transparent
+}

@@ -1,0 +1,18 @@
+.exchange {
+  grid-area: exchange;
+  background-color: #cc38cc;
+  color: white;
+  border-radius: 500px;
+  padding: 20px;
+  font-size: 1.5em;
+  box-shadow: 0px 6px 15px -2px rgba(0,0,0,0.17);
+}
+
+.exchange:disabled {
+  background-color: #c78bc7;
+}
+
+.exchange:focus {
+  outline: none;
+  box-shadow: 0px 6px 15px -2px rgba(0,0,0,0.37);
+}

@@ -1,5 +1,31 @@
 .App {
   text-align: center;
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  grid-template-areas: 
+    ". . . . ."
+    ". base base base ."
+    ". swap rate . ."
+    ". swap rate . ."
+    ". term term term ."
+    ". exchange exchange exchange ."
+    ". . . . .";
+  grid-template-rows: auto auto 20px 20px auto auto;
+  grid-template-columns: 10% 1fr auto 1fr 10%;
+  align-items: center;
+}
+
+.background {
+  grid-column: 1/6;
+  grid-row: 4/8;
+  background-color: #eee;
+  z-index: -1;
+  align-self: stretch;
+  justify-content: stretch;
 }
 
 .App-logo {
