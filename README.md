@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Revolut Test for Aidan Brown
+
+Thanks for the opportunity to take this challenge, I thoroughly enjoyed it. 
+
+Ideally, with more time, I would've liked to have added more component tests, and probably some integration tests with enzyme mount (to test deeper rendering with redux integration too). 
 
 ## Available Scripts
 
